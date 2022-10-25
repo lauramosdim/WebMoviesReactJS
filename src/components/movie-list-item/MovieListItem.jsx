@@ -1,4 +1,5 @@
-import React from "react"
+import React from 'react'
+import './MovieListItem.css'
 
 class MovieListItem extends React.PureComponent {
   render() {
