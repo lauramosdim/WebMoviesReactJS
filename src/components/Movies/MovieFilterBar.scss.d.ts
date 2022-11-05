@@ -3,6 +3,7 @@
 interface CssExports {
   'movieFilterBar': string;
   'movieFilterBar--arrow': string;
+  'movieFilterBar--arrow-down': string;
   'movieFilterBar--genre': string;
   'movieFilterBar--genre-active': string;
   'movieFilterBar--genres': string;

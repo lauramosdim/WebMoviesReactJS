@@ -15,7 +15,7 @@
     "type": "git",
     "url": "git+https://github.com/lauramosdim/WebMoviesReactJS.git"
   },
-  "author": "",
+  "author": "Laura Ramos",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/lauramosdim/WebMoviesReactJS/issues"
@@ -47,14 +47,5 @@
     "webpack": "^5.72.1",
     "webpack-cli": "^4.9.2",
     "webpack-dev-server": "^4.9.0"
-  },
-  "lint-staged": {
-    "*.js": "eslint --fix ",
-    "*.{js,css,md,html,json}": "prettier --cache --write"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
   }
 }
